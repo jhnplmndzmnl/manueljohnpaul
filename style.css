@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* nav bar section start */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    border-bottom: solid black;
+}
+
+nav img {
+    width: 10%;
+}
+
+nav div {
+display: flex;
+} 
+ 
+nav div a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav div a:hover {
+    background-color: rgb(194, 147, 86);
+    border-radius: 15px;
+    color: white;
+}
+
+nav div a p {
+    margin: 0px 10px;
+    font-size: 20px;
+}
+
+nav #menu {
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 20px;
+    border: black solid;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+nav #menu:hover {
+    background-color: rgb(194, 147, 86);
+    border: none;
+    color: white;
+    padding: 7.5px;
+}
+/* nav bar section end */
+
+/* HOME page start */
+div #home {
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+}
+div #home img {
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+div #home p {
+    font-size: 20px;
+}
+
+div #students {
+    width: 80%;
+    margin-left: 10%;
+    border-bottom: solid black;
+}
+
+div #students #title{
+    font-style: italic;
+    margin-top: 120px;
+    text-align: center;
+    background-color: rgb(194, 147, 86);
+    color: white;
+    width: 100%;
+    border-radius: 3px;
+}
+
+div #students div {
+    padding: 5px;
+    display: flex;
+}
+
+div #students div img {
+    width: 40%;
+    border-radius: 10px;
+}
+
+div #students div div {
+    display: block;
+    padding: 50px;
+}
+
+#misVision {
+    display: flex;
+    justify-content: space-around;
+}
+
+#misVision div {
+    width: 30%;
+    margin-top: 30px;
+    background-color: rgb(194, 147, 86);
+    color: white;
+    padding: 5px 20px 40px;
+    border-radius: 5px;
+}
+
+#misVision div h1 {
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#misVision div p {
+    font-size: 18px;
+}
+
+#hidden {
+    border-bottom: solid black;
+    width: 80%;
+    margin: 40px 115px;
+}
+
+#history {
+    width: 85%;
+    margin-left: 8%;
+    margin-bottom: 50px;
+}
+
+#history h1 {
+    text-align: center;
+    font-style: italic;
+    background-color: rgb(194, 147, 86);
+    width: 100%;
+    border-radius: 5px;
+}
+
+#history div {
+    padding: 20px;
+}
+
+#history div p {
+    text-align: center;
+    font-size: 18px;
+}
+
+footer {
+    background-color: rgb(65, 37, 0);
+    color: white;
+}
